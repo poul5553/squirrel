@@ -1,0 +1,130 @@
+/* Import af clear.css er afløst af link i html */
+/* @import "clear.css"; */
+
+/* Import af google font er afløst af font-face, som står nedenfor */
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|PT+Sans'); */
+
+/* latin-ext */
+@font-face {
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Open Sans Condensed Light'), local('OpenSansCondensed-Light'), url(https://fonts.gstatic.com/s/opensanscondensed/v12/z7NFdQDnbTkabZAIOl9il_O6KJj73e7Ff1GhDuvMR6WR.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Open Sans Condensed Light'), local('OpenSansCondensed-Light'), url(https://fonts.gstatic.com/s/opensanscondensed/v12/z7NFdQDnbTkabZAIOl9il_O6KJj73e7Ff1GhDuXMRw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+body {
+    background-color: #e3e3e3;
+    font-family: arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #d0030b;
+}
+
+header {
+    background: #39385c;
+    background-image: url("../img/header2a.jpg");
+    position: relative;
+    height: 400px;
+}
+
+nav {
+    font-family: arial, sans-serif;
+    background: #9E9E9E;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 2px;
+    height: 24px;
+}
+
+nav li {
+    display: inline-block;
+    height: 30px;
+}
+
+nav ul {
+    /*float: right;*/
+    text-align: center;
+    height: 30px;
+}
+
+nav a {
+    color: #FFFFFF;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav a:hover {
+    background: #606060;
+}
+
+section {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+h1 {
+    position: relative;
+    top: 50%;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 38px;
+    padding: 8px;
+}
+
+h3 {
+    position: relative;
+    top: 50%;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    padding: 2px;
+    margin-bottom: 6px;
+}
+
+h2 {
+    color: #675e5e;
+    font-size: 22px;
+    padding: 2px;
+    margin-bottom: 6px;
+}
+
+article {
+    width: 400px;
+    padding: 4px;
+    padding-left: 50px;
+    margin-bottom: 40px;
+}
+
+.bullitList {
+    list-style-type: circle;
+}
+
+footer {
+    background: #9E9E9E;
+    color: #C9C9BA;
+    height: 30px;
+    padding: 4px;
+}
+
+.wrapper {
+    background: #FFFFFF;
+    width: 100%;
+    margin: 0 auto;
+}
